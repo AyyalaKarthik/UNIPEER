@@ -1,0 +1,312 @@
+/* Css for Entire Body  */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* Css for Entire Body  */
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Css for Navbar  */
+.navbar{
+    height: 72px;
+    width: 100vw;
+    background-color: #48096a;
+}
+
+.mainNavDiv{
+    display: flex;
+}
+
+/* Css for First Child in nav */
+.firstChild {
+    position: relative;
+    height: 68px;
+    width: 230px;
+}
+
+.firstChild > img,h1{
+    display: inline;
+    position: absolute;
+}
+.firstChild > img {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-left: 22px;
+    margin-top: 6px;
+}
+.firstChild > h1{
+    top: 15px;
+    left: 82px;
+    font-size: 32px;
+    color: white;
+    font-weight:900;
+}
+
+/* Css for Second Child in Navbar  */
+.secondChild{
+    height: 70px;
+    width: 280px;
+    position: relative;
+    margin-left: 222px;
+
+}
+.search {
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    height: 29px;
+    width: 393px;
+    background-color: #ddddddb5;
+}
+.search > p {
+    display: inline;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.search > i {
+    margin-left: 5px;
+    margin-top: 4px;
+    filter: invert(1);
+    font-size: 20px;
+}
+/* Css for Third Child  */
+.thirdChild{
+    width: 320px;
+    position: relative;
+}
+.icons{
+    position: absolute;
+    top: 19px;
+    left: 127px;
+}
+
+.notificationImg{
+    height: 50px;
+    width: 50px;
+}
+#commentImg,#plusImg,#bookImg,#gamepadImg , #homeImg , #arrowImg , #bellImg, #starImg{
+    filter: invert(1);
+}
+/* Css for fourth Child  */
+.fourthChild{
+    height: 70px;
+    width: 152px;
+    position: relative;
+    margin-left: 313px;
+}
+.fourthChild > h2{
+    display: inline;
+    color: white;
+    top: 18px;
+    right: 75px;
+}
+.fourthChild > img,h2{
+    position: absolute;
+}
+.fourthChild > img {
+    height: 50px;
+    width: 54px;
+    top: 10px;
+    right: 9px;
+    border-radius: 50%;
+    background-color: #48096a;
+}
+
+/* Css for Contents in the Web App  */
+.content{
+    position: relative;
+}
+/* Css for Item 1 */
+.item1{
+    position: absolute;
+    height: 543px;
+    width: 181px;
+    left: 49px;
+    top: 16px;
+    background-color: #ebebeb;
+}
+.para1{
+    height: 37px;
+    width: 100%;
+    background-color: #48096a;
+    color: white;
+}
+.para1 > p{
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 8px;
+}
+
+/* Css for Item 2 */
+.item2{
+    background-color:#48096a;
+    height: 51px;
+    width: 146px;
+    position: absolute;
+    top: 568px;
+    left: 72px;
+}
+
+.arrowImg{
+    height: 50px;
+    width: 50px;
+}
+.item2 > i{
+    font-size: 42px;
+    padding-top: 5px;
+}
+
+/* Css for Img Item 3 */
+.blankImgItem3 {
+    height: 46px;
+    width: 48px;
+    position: absolute;
+    top: 22px;
+    left: 246px;
+    border-radius: 50%;
+}
+
+/* Css content for Item 3 */
+.item3{
+    height: 155px;
+    width: 710px;
+    background-color: #ebebeb;
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    border-radius: 30px;
+}
+
+.item3 > img{
+    height: 70px;
+    width: 70px;
+}
+.item3 > p{
+    color: #2f85a1;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.profileitemImg{
+    display: inline;
+}
+
+.item3Icons{
+    position: absolute;
+    background-color: #48096a;
+    height: 47px;
+    width: 78%;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    left: 49px;
+    color: white;
+}
+
+.image,.place,.polls,.activity{
+    margin-top: 5px;
+    padding: 0px 5px;
+}
+
+
+/* Css for Item 4 */
+.item4{
+    position: absolute;
+    top: 224px;
+    left: 255px;
+    height: 431px;
+    width: 764px;
+    color: #2f85a1;
+    background-color: #ebebeb;
+}
+.item4>img,h3,p{
+    display: inline;
+    position: absolute;
+}
+.item4 > h3 {
+    left: 54px;
+    top: 3px;
+}
+.eventsPara{
+    top: 25px;
+    left: 55px;
+    font-size: 19px;
+}
+.biryaniPara{
+    top: 77px;
+    left: 31px;
+    font-size: 20px;
+}
+
+.mainImg {
+    top: 110px;
+    height: 318px;
+    width: 563px;
+    padding-left: 35px;
+}
+
+
+/* Css for Item 5 */
+.item5{
+    position: absolute;
+    top: 16px;
+    left: 1044px;
+    height: 399px;
+    width: 302px;
+    background-color: #ebebeb;
+}
+.para5{
+    height: 37px;
+    width: 100%;
+    background-color: #48096a;
+    color: white;
+}
+.para5 > p{
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 8px;
+}
+/* Css for Item 6 */
+.item6{
+    position: absolute;
+    top: 433px;
+    left: 1044px;
+    height: 203px;
+    width: 302px;
+    background-color: #ebebeb;
+}
+.para6{
+    height: 37px;
+    width: 100%;
+    background-color: #48096a;
+    color: white;
+}
+.para6 > p{
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 8px;
+}
+
+/* Css for Item 8 */
+.para7{
+    position: absolute;
+    top: 596px;
+    left: 1086px;
+    height: 37px;
+    width: 412px;
+    background-color: #48096a;
+    color: white;
+}
+.para7 > p{
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 8px;
+}
